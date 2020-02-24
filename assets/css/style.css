@@ -1,0 +1,52 @@
+/*
+
+
+
+
+
+
+
+*/
+
+div {
+    border: 1px solid gray;
+}
+
+
+/* buttons */
+
+.diamond-button {
+    margin-top: 20px;
+    line-height: 60px;
+    font-weight: bold;
+    padding: 0 40px;
+    background: white;
+    border: none;
+}
+
+.ruby-button {
+    margin-top: 20px;
+    line-height: 60px;
+    font-weight: bold;
+    padding: 0 40px;
+    background: white;
+    border: none;
+}
+
+.sapphire-button {
+    margin-top: 20px;
+    line-height: 60px;
+    font-weight: bold;
+    padding: 0 40px;
+    background: white;
+    border: none;
+}
+
+.emerald-button {
+    margin-top: 20px;
+    line-height: 60px;
+    font-weight: bold;
+    padding: 0 40px;
+    background: white;
+    border: none;
+}
