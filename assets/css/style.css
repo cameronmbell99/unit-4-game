@@ -1,4 +1,4 @@
-/* objects */
+/* Objects */
 
 img {
     height: 45px;
@@ -10,7 +10,7 @@ body {
 }
 
 
-/* id's */
+/* Id's */
 
 #counter {
     background: limegreen;
@@ -57,7 +57,7 @@ body {
 }
 
 
-/* buttons */
+/* Buttons */
 
 #diamond-button {
     margin-top: 20px;
