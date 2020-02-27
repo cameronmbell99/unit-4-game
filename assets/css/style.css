@@ -1,29 +1,27 @@
-/*
-
-
-
-
-
-
-
-*/
-
-
-/* div {
-    border: 1px solid gray;
-} */
-
-body {
-    background: ;
-}
+/* objects */
 
 img {
     height: 45px;
     width: 45px;
 }
 
+body {
+    background: brown;
+}
+
+
+/* id's */
+
+#counter {
+    background: limegreen;
+    text-align: center;
+    padding-top: 60px;
+    border-radius: 10px;
+}
+
 #instructions {
     background: lightblue;
+    border-radius: 10px;
 }
 
 #BIG {
@@ -31,28 +29,31 @@ img {
 }
 
 #numGuessed {
-    width: 250px;
+    width: 350px;
     height: 50px;
     background: gray;
     margin-top: 10px;
     color: white;
-    padding-left: 10px;
+    padding: 13px;
     text-align: center;
+    border-radius: 15px;
 }
 
 #Header {
     background: orange;
     color: white;
+    border-radius: 12px;
 }
 
 #gameTotal {
-    width: 250px;
+    width: 350px;
     height: 50px;
     background: gray;
     margin-top: 10px;
     color: white;
-    padding-left: 10px;
+    padding: 13px;
     text-align: center;
+    border-radius: 15px;
 }
 
 
@@ -65,6 +66,8 @@ img {
     padding: 0 40px;
     background: white;
     border: none;
+    border-radius: 5px;
+    margin: 20px;
 }
 
 #ruby-button {
@@ -72,8 +75,10 @@ img {
     line-height: 60px;
     font-weight: bold;
     padding: 0 40px;
-    background: white;
+    background: lightcoral;
     border: none;
+    border-radius: 5px;
+    margin: 20px;
 }
 
 #sapphire-button {
@@ -81,8 +86,10 @@ img {
     line-height: 60px;
     font-weight: bold;
     padding: 0 40px;
-    background: white;
+    background: lightblue;
     border: none;
+    border-radius: 5px;
+    margin: 20px;
 }
 
 #emerald-button {
@@ -90,6 +97,8 @@ img {
     line-height: 60px;
     font-weight: bold;
     padding: 0 40px;
-    background: white;
+    background: lightgreen;
     border: none;
+    border-radius: 5px;
+    margin: 20px;
 }

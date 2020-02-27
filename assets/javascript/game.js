@@ -24,11 +24,11 @@ $(document).ready(function() {
     var sapphire = num(1, 12);
     var emerald = num(1, 12);
 
-    console.log("diamond" + diamond);
-    console.log("ruby" + ruby);
-    console.log("sapphire" + sapphire);
-    console.log("emerald" + emerald);
-    console.log("game total" + gameTotal);
+    console.log("diamond " + diamond);
+    console.log("ruby " + ruby);
+    console.log("sapphire " + sapphire);
+    console.log("emerald " + emerald);
+    console.log("game total " + gameTotal);
 
 
     function gameReset() {
