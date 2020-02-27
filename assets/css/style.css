@@ -8,14 +8,57 @@
 
 */
 
-div {
+
+/* div {
     border: 1px solid gray;
+} */
+
+body {
+    background: ;
+}
+
+img {
+    height: 45px;
+    width: 45px;
+}
+
+#instructions {
+    background: lightblue;
+}
+
+#BIG {
+    padding-left: 15px;
+}
+
+#numGuessed {
+    width: 250px;
+    height: 50px;
+    background: gray;
+    margin-top: 10px;
+    color: white;
+    padding-left: 10px;
+    text-align: center;
+}
+
+#Header {
+    background: orange;
+    color: white;
+}
+
+#gameTotal {
+    width: 250px;
+    height: 50px;
+    background: gray;
+    margin-top: 10px;
+    color: white;
+    padding-left: 10px;
+    text-align: center;
 }
 
 
 /* buttons */
 
-.diamond-button {
+#diamond-button {
     margin-top: 20px;
     line-height: 60px;
     font-weight: bold;
@@ -24,7 +67,7 @@ div {
     border: none;
 }
 
-.ruby-button {
+#ruby-button {
     margin-top: 20px;
     line-height: 60px;
     font-weight: bold;
@@ -33,7 +76,7 @@ div {
     border: none;
 }
 
-.sapphire-button {
+#sapphire-button {
     margin-top: 20px;
     line-height: 60px;
     font-weight: bold;
@@ -42,7 +85,7 @@ div {
     border: none;
 }
 
-.emerald-button {
+#emerald-button {
     margin-top: 20px;
     line-height: 60px;
     font-weight: bold;

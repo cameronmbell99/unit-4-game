@@ -7,19 +7,56 @@
     <title>Document</title>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/javascript/game.js">
+    <script src="assets/javascript/game.js"></script>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/reset.css">
 </head>
 
 <body>
-    <!--  -->
-    <div class="row">
-        <div class="col-md-6">
-            <button id="diamond-button"></button>
-            <button id="ruby-button"></button>
-            <button id="sapphire-button"></button>
-            <button id="emerald-button"></button>
+    <div class="container">
+        <div id="BIG" class="row">
+            <div id="Header" class="col-md-4">
+                <h1>Crystal Collector!</h1>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="container">
+                <div id="instructions" class="col-md-6">
+                    <p>You will be given a random number at the start of the Game.</p>
+                    <br>
+                    <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+                    <br>
+                    <p>You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.</p>
+                    <br>
+                    <p>The value of each crystal is hidden from you until you click on it.</p>
+                    <br>
+                    <p>Each time when the game starts, the game will change the values of each crystal</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <p id="gameTotal"></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <button id="diamond-button"><img src="assets/images/white-diamond.png" alt="White Diamond"></button>
+                <button id="ruby-button"><img src="assets/images/red-ruby.png" alt="White Diamond"></button>
+                <button id="sapphire-button"><img src="assets/images/blue-sapphire.png" alt="White Diamond"></button>
+                <button id="emerald-button"><img src="assets/images/green-emerald.png" alt="White Diamond"></button>
+            </div>
+            <div class="col-md-2">
+                <p id="winCounter"> </p>
+
+                <p id="loseCounter"> </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <p id=numGuessed></p>
+            </div>
         </div>
     </div>
 </body>
